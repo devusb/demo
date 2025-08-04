@@ -15,7 +15,6 @@ jobs:
         github.event.pull_request.author_association == 'COLLABORATOR'
       )
     permissions:
-      contents: read
       pull-requests: write
     steps:
       - name: Add team label automatically to new issues and PRs
